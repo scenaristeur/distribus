@@ -29,7 +29,7 @@
   "devDependencies": {
     "freeport": "^1.0.5",
     "istanbul": "^0.4.5",
-    "mocha": "^3.5.0",
+    "mocha": "^5.2.0",
     "optimist": "^0.6.1",
     "workerpool": "^2.2.2"
   }
