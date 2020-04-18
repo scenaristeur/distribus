@@ -17,7 +17,8 @@
     "url": "git://github.com/enmasseio/distribus.git"
   },
   "scripts": {
-    "test": "mocha test --recursive"
+    "test": "mocha test --recursive",
+    "coverage": "istanbul cover _mocha -- test --recursive; echo \"\nCoverage report is available at ./coverage/lcov-report/index.html\""
   },
   "dependencies": {
     "bluebird": "^3.7.2",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "freeport": "^1.0.5",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "optimist": "^0.6.1",
     "workerpool": "^2.2.2"
